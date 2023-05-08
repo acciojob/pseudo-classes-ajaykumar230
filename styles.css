@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body{
+	background:skyblue;
+	margin:0;
+	padding:20px;
+	
+}
+.firstpara::first-line{
+	background:black;
+	color:white;
+}
+.lastpara{
+	color:red;
+}
+.items li:nth-child(1){
+	background:white;
+}
+.items li:nth-child(2){
+	background:stalegray;
+}
+.items li:nth-child(3){
+	background: pink;
+}
+ .items li:nth-child(4){
+	background:stalegray;
+}
+.items li:nth-child(5){
+	background:white;
+} 
